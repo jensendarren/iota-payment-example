@@ -1,0 +1,19 @@
+{
+  "name": "badbrakesrental",
+  "version": "1.0.0",
+  "description": "An example full IOTA application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Darren Jensen",
+  "license": "ISC",
+  "dependencies": {
+    "@iota/converter": "^1.0.0-beta.23",
+    "@iota/core": "^1.0.0-beta.29",
+    "express": "^4.17.1",
+    "request": "^2.88.2",
+    "socket.io": "^2.3.0"
+  }
+}
