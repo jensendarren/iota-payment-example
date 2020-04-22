@@ -2,7 +2,7 @@
 
 ## A simple micro payment app using IOTA
 
-This application was taken from the [IOTA Fundamentals Course](https://app.pluralsight.com/library/courses/iota-fundamentals/table-of-contents) available on [Pluralsight](pluralsight.com). In this app we are creating new addresses dynamically and
+This application was taken from the [IOTA Fundamentals Course](https://app.pluralsight.com/library/courses/iota-fundamentals/table-of-contents) available on [Pluralsight](https://pluralsight.com). In this app we are creating new addresses dynamically and using these new addresses to make a payment that then unlocks a rental car!
 
 ## Run the application
 
@@ -25,7 +25,7 @@ Once the application UI updates with the IOTA address where to make the payment 
 
 ![IOTA Wallet Transaction](./img/iota-wallet-transaction.png)
 
-You will need to wait for the transfer to process and for it to be confirmed on the Tangle before the car is unlocked and the web UI will update.
+You will need to wait for the transfer to process and for it to be confirmed on the Tangle before the car is unlocked and the web UI will update automatically to reflect that.
 
 ## View the transaction on the Tangle Explorer
 
@@ -33,7 +33,7 @@ If you used a real address in the app then you can view this transaction using t
 
 ### Issue Reporting
 
-If you experience any bugs or need further improvement, please create a new issue under [Issues](https://github.com/jensendarren/iota-message-example/issues).
+If you experience any bugs or need further improvement, please create a new issue under [Issues](https://github.com/jensendarren/iota-payment-example/issues).
 
 ### Disclaimer
 
