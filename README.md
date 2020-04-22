@@ -1,4 +1,4 @@
-# IOTA Payment Example: Hello World App
+# IOTA Payment Example: Basic Car Rental Payment App
 
 ## A simple micro payment app using IOTA
 
@@ -13,7 +13,7 @@ npm install
 node app.js
 ```
 
-Add your own seed to the `app.js` file. Then start the app using
+Add **your own seed** to the [app.js](./app.js) file. Then run the app from the terminal using
 
 ```
 node app.js
@@ -21,9 +21,11 @@ node app.js
 
 ## Make a payment using your IOTA wallet
 
-Once the application UI updates with the IOTA address where to mak ethe payment then head over to your local IOTA wallet, pate the address there and click 'SENT IT NOW' button.
+Once the application UI updates with the IOTA address where to make the payment then head over to your local IOTA wallet, pate the address there and click 'SENT IT NOW' button. See below screen capture.
 
 ![IOTA Wallet Transaction](./img/iota-wallet-transaction.png)
+
+You will need to wait for the transfer to process and for it to be confirmed on the Tangle before the car is unlocked and the web UI will update.
 
 ## View the transaction on the Tangle Explorer
 
