@@ -2,8 +2,8 @@ const express = require('express')
 const app = express()
 const http = require('http').Server(app)
 const Iota = require('@iota/core');
-const Converter = require('@iota/converter');
-const seed = 'REPLACE_WITH_YOUR_SEED'
+const fs = require('fs');
+const seed = fs.readFileSync(".seed").toString().trim();
 const iota = Iota.composeAPI({
   provider: 'https://nodes.comnet.thetangle.org:443'
 });

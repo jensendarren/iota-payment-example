@@ -10,10 +10,11 @@ To run this application, install the dependencies and then use node to run the a
 
 ```
 npm install
+touch .seed
 node app.js
 ```
 
-Add **your own seed** to the [app.js](./app.js) file. Then run the app from the terminal using
+Copy **your own seed** to the `.seed` file you just created using the `touch` command. This seed is loaded into the app at runtime. Now run the app from the terminal using
 
 ```
 node app.js
@@ -30,6 +31,10 @@ You will need to wait for the transfer to process and for it to be confirmed on 
 ## View the transaction on the Tangle Explorer
 
 If you used a real address in the app then you can view this transaction using the [Tangle Explorer](https://comnet.thetangle.org/). Make a note of the hash value that was output from the app and use that to look up your transaction. Additionally, if you are using your own address you will be able to see this transaction in your local IOTA Wallet.
+
+## Solutions for common transfer problems
+
+Sometimes the transactions get stuck resulting in not being able to spend IOTAs. Here is a [possible workaround](https://docs.google.com/document/d/1SDMjCSp1GOJQiBthOruDLt0vX-Ln0g7otwq_nBGK4aQ/edit) to this issue. Also can check [here](https://iota-news.com/how-to-move-iotas-from-a-used-address-by-reattaching-old-bundles/).
 
 ### Issue Reporting
 
